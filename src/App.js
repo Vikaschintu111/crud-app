@@ -1,10 +1,10 @@
-import './App.css';
-import { TodoWrapper } from './components/TodoWrapper';
+import React from 'react';
+import CrudOperations from './CrudOperations';
 
 function App() {
   return (
     <div className="App">
-      <TodoWrapper  />
+      <CrudOperations />
     </div>
   );
 }
